@@ -1,0 +1,3553 @@
+
+
+Time: 2021-05-20_02:25:25
+Platform information: Linux-5.8.0-49-generic-x86_64-with-glibc2.29, server3
+PyTorch version: 1.8.1+cu102
+Numpy version: 1.20.3
+Config information: {
+    "ML": {
+        "datasetsize": "-1",
+        "train": "0.625",
+        "test": "0.25",
+        "val": "0.125",
+        "epochs": "35",
+        "hidden": "128 128",
+        "dropout": "0.0",
+        "activation": "relu",
+        "optimizer": "Adamw",
+        "batchsize": "64",
+        "lr": "1e-4",
+        "accuracyeps": "0"
+    },
+    "OPTUNA": {
+        "trials": "500",
+        "epochs": "25",
+        "train": "0.8",
+        "val": "0.2",
+        "batchsize": "64",
+        "numlayers": "2 5",
+        "layersize": "64 512",
+        "optimizer": "adamw",
+        "activation": "relu",
+        "lr": "1e-4",
+        "accuracyeps": "0"
+    }
+} 
+Total GPU memory: 34084683776 bytes
+
+
+Trial number: 0
+Trial Train accuracy: 0.32441067695617676
+Trial Val accuracy: 0.32528066635131836
+Params: 
+    n_layers: 4
+    hidden_size: 352
+Best trial is 0 with Val accuracy: 0.32528066635131836
+
+Trial number: 1
+Trial Train accuracy: 0.3255349099636078
+Trial Val accuracy: 0.3286728262901306
+Params: 
+    n_layers: 2
+    hidden_size: 320
+Best trial is 1 with Val accuracy: 0.3286728262901306
+
+Trial number: 2
+Trial Train accuracy: 0.32534724473953247
+Trial Val accuracy: 0.2937754988670349
+Params: 
+    n_layers: 4
+    hidden_size: 512
+
+Trial number: 3
+Trial Train accuracy: 0.3246903121471405
+Trial Val accuracy: 0.3217909336090088
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 4
+Trial Train accuracy: 0.32586899399757385
+Trial Val accuracy: 0.3131153881549835
+Params: 
+    n_layers: 2
+    hidden_size: 192
+
+Trial number: 5
+Trial Train accuracy: 0.3245795965194702
+Trial Val accuracy: 0.3146088421344757
+Params: 
+    n_layers: 2
+    hidden_size: 288
+
+Trial number: 6
+Trial Train accuracy: 0.3212931752204895
+Trial Val accuracy: 0.25538092851638794
+Params: 
+    n_layers: 5
+    hidden_size: 64
+
+Trial number: 7
+Trial Train accuracy: 0.3252045810222626
+Trial Val accuracy: 0.2842143774032593
+Params: 
+    n_layers: 5
+    hidden_size: 448
+
+Trial number: 8
+Trial Train accuracy: 0.3261505365371704
+Trial Val accuracy: 0.3165450692176819
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 9
+Trial Train accuracy: 0.32627439498901367
+Trial Val accuracy: 0.3120571970939636
+Params: 
+    n_layers: 2
+    hidden_size: 256
+
+Trial number: 10
+Trial Train accuracy: 0.32651278376579285
+Trial Val accuracy: 0.32986611127853394
+Params: 
+    n_layers: 3
+    hidden_size: 128
+Best trial is 10 with Val accuracy: 0.32986611127853394
+
+Trial number: 11
+Trial Train accuracy: 0.10787162184715271
+Trial Val accuracy: 0.12113502621650696
+Params: 
+    n_layers: 3
+    hidden_size: 96
+
+Trial number: 12
+Trial Train accuracy: 0.3270608186721802
+Trial Val accuracy: 0.27630433440208435
+Params: 
+    n_layers: 2
+    hidden_size: 160
+
+Trial number: 13
+Trial Train accuracy: 0.3265596926212311
+Trial Val accuracy: 0.3411082923412323
+Params: 
+    n_layers: 3
+    hidden_size: 384
+Best trial is 13 with Val accuracy: 0.3411082923412323
+
+Trial number: 14
+Trial Train accuracy: 0.10655593127012253
+Trial Val accuracy: 0.12113502621650696
+Params: 
+    n_layers: 4
+    hidden_size: 384
+
+Trial number: 15
+Trial Train accuracy: 0.32619932293891907
+Trial Val accuracy: 0.30705150961875916
+Params: 
+    n_layers: 3
+    hidden_size: 224
+
+Trial number: 16
+Trial Train accuracy: 0.31765204668045044
+Trial Val accuracy: 0.16281670331954956
+Params: 
+    n_layers: 3
+    hidden_size: 128
+
+Trial number: 17
+Trial Train accuracy: 0.32445570826530457
+Trial Val accuracy: 0.31427863240242004
+Params: 
+    n_layers: 4
+    hidden_size: 416
+
+Trial number: 18
+Trial Train accuracy: 0.3248160779476166
+Trial Val accuracy: 0.3488982915878296
+Params: 
+    n_layers: 3
+    hidden_size: 480
+Best trial is 18 with Val accuracy: 0.3488982915878296
+
+Trial number: 19
+Trial Train accuracy: 0.32312124967575073
+Trial Val accuracy: 0.3223462998867035
+Params: 
+    n_layers: 4
+    hidden_size: 512
+
+Trial number: 20
+Trial Train accuracy: 0.32551801204681396
+Trial Val accuracy: 0.32992613315582275
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 21
+Trial Train accuracy: 0.32503002882003784
+Trial Val accuracy: 0.3135882019996643
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 22
+Trial Train accuracy: 0.32616180181503296
+Trial Val accuracy: 0.333408385515213
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 23
+Trial Train accuracy: 0.32486486434936523
+Trial Val accuracy: 0.34917595982551575
+Params: 
+    n_layers: 3
+    hidden_size: 384
+Best trial is 23 with Val accuracy: 0.34917595982551575
+
+Trial number: 24
+Trial Train accuracy: 0.32812124490737915
+Trial Val accuracy: 0.3172805607318878
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 25
+Trial Train accuracy: 0.32396209239959717
+Trial Val accuracy: 0.3228341042995453
+Params: 
+    n_layers: 4
+    hidden_size: 352
+
+Trial number: 26
+Trial Train accuracy: 0.3260604441165924
+Trial Val accuracy: 0.33984750509262085
+Params: 
+    n_layers: 2
+    hidden_size: 416
+
+Trial number: 27
+Trial Train accuracy: 0.32595720887184143
+Trial Val accuracy: 0.3457913100719452
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 28
+Trial Train accuracy: 0.3240033984184265
+Trial Val accuracy: 0.31111910939216614
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 29
+Trial Train accuracy: 0.32515203952789307
+Trial Val accuracy: 0.33247777819633484
+Params: 
+    n_layers: 4
+    hidden_size: 512
+
+Trial number: 30
+Trial Train accuracy: 0.3249756097793579
+Trial Val accuracy: 0.321318119764328
+Params: 
+    n_layers: 4
+    hidden_size: 448
+
+Trial number: 31
+Trial Train accuracy: 0.3251407742500305
+Trial Val accuracy: 0.3186764419078827
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 32
+Trial Train accuracy: 0.3254992663860321
+Trial Val accuracy: 0.3198922276496887
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 33
+Trial Train accuracy: 0.32568132877349854
+Trial Val accuracy: 0.27926871180534363
+Params: 
+    n_layers: 2
+    hidden_size: 320
+
+Trial number: 34
+Trial Train accuracy: 0.3257920444011688
+Trial Val accuracy: 0.3077269494533539
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 35
+Trial Train accuracy: 0.3240409195423126
+Trial Val accuracy: 0.3474873900413513
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 36
+Trial Train accuracy: 0.3253716230392456
+Trial Val accuracy: 0.3259260952472687
+Params: 
+    n_layers: 2
+    hidden_size: 448
+
+Trial number: 37
+Trial Train accuracy: 0.32700076699256897
+Trial Val accuracy: 0.28084471821784973
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 38
+Trial Train accuracy: 0.32571321725845337
+Trial Val accuracy: 0.33574235439300537
+Params: 
+    n_layers: 2
+    hidden_size: 448
+
+Trial number: 39
+Trial Train accuracy: 0.32431307435035706
+Trial Val accuracy: 0.325610876083374
+Params: 
+    n_layers: 4
+    hidden_size: 416
+
+Trial number: 40
+Trial Train accuracy: 0.3254842460155487
+Trial Val accuracy: 0.29914894700050354
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 41
+Trial Train accuracy: 0.3265972435474396
+Trial Val accuracy: 0.3011226952075958
+Params: 
+    n_layers: 3
+    hidden_size: 288
+
+Trial number: 42
+Trial Train accuracy: 0.3254842460155487
+Trial Val accuracy: 0.307216614484787
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 43
+Trial Train accuracy: 0.3267473876476288
+Trial Val accuracy: 0.32682666182518005
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 44
+Trial Train accuracy: 0.3256625533103943
+Trial Val accuracy: 0.3067288100719452
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 45
+Trial Train accuracy: 0.3246396481990814
+Trial Val accuracy: 0.32931825518608093
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 46
+Trial Train accuracy: 0.32516705989837646
+Trial Val accuracy: 0.3240423798561096
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 47
+Trial Train accuracy: 0.3248329758644104
+Trial Val accuracy: 0.33473673462867737
+Params: 
+    n_layers: 2
+    hidden_size: 352
+
+Trial number: 48
+Trial Train accuracy: 0.32548800110816956
+Trial Val accuracy: 0.3197946548461914
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 49
+Trial Train accuracy: 0.32568132877349854
+Trial Val accuracy: 0.29400065541267395
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 50
+Trial Train accuracy: 0.32377251982688904
+Trial Val accuracy: 0.3229091465473175
+Params: 
+    n_layers: 4
+    hidden_size: 256
+
+Trial number: 51
+Trial Train accuracy: 0.32637763023376465
+Trial Val accuracy: 0.27168887853622437
+Params: 
+    n_layers: 2
+    hidden_size: 416
+
+Trial number: 52
+Trial Train accuracy: 0.3263644874095917
+Trial Val accuracy: 0.24402616918087006
+Params: 
+    n_layers: 5
+    hidden_size: 384
+
+Trial number: 53
+Trial Train accuracy: 0.32542043924331665
+Trial Val accuracy: 0.31021854281425476
+Params: 
+    n_layers: 2
+    hidden_size: 416
+
+Trial number: 54
+Trial Train accuracy: 0.3263813853263855
+Trial Val accuracy: 0.30014708638191223
+Params: 
+    n_layers: 2
+    hidden_size: 480
+
+Trial number: 55
+Trial Train accuracy: 0.32604917883872986
+Trial Val accuracy: 0.33464667201042175
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 56
+Trial Train accuracy: 0.32533034682273865
+Trial Val accuracy: 0.32572343945503235
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 57
+Trial Train accuracy: 0.32547861337661743
+Trial Val accuracy: 0.32156580686569214
+Params: 
+    n_layers: 2
+    hidden_size: 416
+
+Trial number: 58
+Trial Train accuracy: 0.32617682218551636
+Trial Val accuracy: 0.3436073958873749
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 59
+Trial Train accuracy: 0.32574325799942017
+Trial Val accuracy: 0.3285077214241028
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 60
+Trial Train accuracy: 0.32461148500442505
+Trial Val accuracy: 0.3172054886817932
+Params: 
+    n_layers: 3
+    hidden_size: 288
+
+Trial number: 61
+Trial Train accuracy: 0.3248855173587799
+Trial Val accuracy: 0.3068038523197174
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 62
+Trial Train accuracy: 0.32561561465263367
+Trial Val accuracy: 0.3384065628051758
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 63
+Trial Train accuracy: 0.3241084814071655
+Trial Val accuracy: 0.3208603262901306
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 64
+Trial Train accuracy: 0.32513701915740967
+Trial Val accuracy: 0.3328230082988739
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 65
+Trial Train accuracy: 0.32618993520736694
+Trial Val accuracy: 0.32216617465019226
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 66
+Trial Train accuracy: 0.32434871792793274
+Trial Val accuracy: 0.3256033658981323
+Params: 
+    n_layers: 4
+    hidden_size: 480
+
+Trial number: 67
+Trial Train accuracy: 0.32559871673583984
+Trial Val accuracy: 0.32314929366111755
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 68
+Trial Train accuracy: 0.3259103000164032
+Trial Val accuracy: 0.3282075524330139
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 69
+Trial Train accuracy: 0.32366743683815
+Trial Val accuracy: 0.2552458643913269
+Params: 
+    n_layers: 4
+    hidden_size: 448
+
+Trial number: 70
+Trial Train accuracy: 0.3248160779476166
+Trial Val accuracy: 0.3261212110519409
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 71
+Trial Train accuracy: 0.3261861801147461
+Trial Val accuracy: 0.31271761655807495
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 72
+Trial Train accuracy: 0.3257150948047638
+Trial Val accuracy: 0.26496458053588867
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 73
+Trial Train accuracy: 0.3249436914920807
+Trial Val accuracy: 0.3260836899280548
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 74
+Trial Train accuracy: 0.32543542981147766
+Trial Val accuracy: 0.29648473858833313
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 75
+Trial Train accuracy: 0.32429054379463196
+Trial Val accuracy: 0.32826757431030273
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 76
+Trial Train accuracy: 0.3247879147529602
+Trial Val accuracy: 0.3391795754432678
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 77
+Trial Train accuracy: 0.32635697722435
+Trial Val accuracy: 0.31526175141334534
+Params: 
+    n_layers: 2
+    hidden_size: 352
+
+Trial number: 78
+Trial Train accuracy: 0.3263907730579376
+Trial Val accuracy: 0.30969318747520447
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 79
+Trial Train accuracy: 0.10383446514606476
+Trial Val accuracy: 0.12113502621650696
+Params: 
+    n_layers: 5
+    hidden_size: 416
+
+Trial number: 80
+Trial Train accuracy: 0.3259834945201874
+Trial Val accuracy: 0.34442541003227234
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 81
+Trial Train accuracy: 0.325116366147995
+Trial Val accuracy: 0.3322751522064209
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 82
+Trial Train accuracy: 0.3248235881328583
+Trial Val accuracy: 0.2983759641647339
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 83
+Trial Train accuracy: 0.32537537813186646
+Trial Val accuracy: 0.31232738494873047
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 84
+Trial Train accuracy: 0.32423049211502075
+Trial Val accuracy: 0.3416036069393158
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 85
+Trial Train accuracy: 0.32536035776138306
+Trial Val accuracy: 0.337048202753067
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 86
+Trial Train accuracy: 0.3256644308567047
+Trial Val accuracy: 0.3165600895881653
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 87
+Trial Train accuracy: 0.32560810446739197
+Trial Val accuracy: 0.31332552433013916
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 88
+Trial Train accuracy: 0.32542043924331665
+Trial Val accuracy: 0.30539295077323914
+Params: 
+    n_layers: 2
+    hidden_size: 416
+
+Trial number: 89
+Trial Train accuracy: 0.32502251863479614
+Trial Val accuracy: 0.3250029981136322
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 90
+Trial Train accuracy: 0.32499250769615173
+Trial Val accuracy: 0.3282225430011749
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 91
+Trial Train accuracy: 0.3256343901157379
+Trial Val accuracy: 0.2886497378349304
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 92
+Trial Train accuracy: 0.3247053325176239
+Trial Val accuracy: 0.32165583968162537
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 93
+Trial Train accuracy: 0.32571321725845337
+Trial Val accuracy: 0.3451533913612366
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 94
+Trial Train accuracy: 0.32571321725845337
+Trial Val accuracy: 0.34600141644477844
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 95
+Trial Train accuracy: 0.32390016317367554
+Trial Val accuracy: 0.33872178196907043
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 96
+Trial Train accuracy: 0.32611674070358276
+Trial Val accuracy: 0.2880568504333496
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 97
+Trial Train accuracy: 0.3252740204334259
+Trial Val accuracy: 0.306240975856781
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 98
+Trial Train accuracy: 0.324714720249176
+Trial Val accuracy: 0.30818474292755127
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 99
+Trial Train accuracy: 0.325747013092041
+Trial Val accuracy: 0.32681915163993835
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 100
+Trial Train accuracy: 0.32556870579719543
+Trial Val accuracy: 0.3369806706905365
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 101
+Trial Train accuracy: 0.32363176345825195
+Trial Val accuracy: 0.3282075524330139
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 102
+Trial Train accuracy: 0.3264339566230774
+Trial Val accuracy: 0.3125900626182556
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 103
+Trial Train accuracy: 0.32611486315727234
+Trial Val accuracy: 0.3089351952075958
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 104
+Trial Train accuracy: 0.3263813853263855
+Trial Val accuracy: 0.32682666182518005
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 105
+Trial Train accuracy: 0.3254110515117645
+Trial Val accuracy: 0.32221871614456177
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 106
+Trial Train accuracy: 0.32414790987968445
+Trial Val accuracy: 0.3370106816291809
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 107
+Trial Train accuracy: 0.3229110538959503
+Trial Val accuracy: 0.3354797065258026
+Params: 
+    n_layers: 4
+    hidden_size: 480
+
+Trial number: 108
+Trial Train accuracy: 0.3253772556781769
+Trial Val accuracy: 0.3389018774032593
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 109
+Trial Train accuracy: 0.32777777314186096
+Trial Val accuracy: 0.33195245265960693
+Params: 
+    n_layers: 3
+    hidden_size: 192
+
+Trial number: 110
+Trial Train accuracy: 0.32535848021507263
+Trial Val accuracy: 0.30030468106269836
+Params: 
+    n_layers: 2
+    hidden_size: 448
+
+Trial number: 111
+Trial Train accuracy: 0.32381007075309753
+Trial Val accuracy: 0.3141360282897949
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 112
+Trial Train accuracy: 0.32530781626701355
+Trial Val accuracy: 0.2818804085254669
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 113
+Trial Train accuracy: 0.32601726055145264
+Trial Val accuracy: 0.32517561316490173
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 114
+Trial Train accuracy: 0.3242698907852173
+Trial Val accuracy: 0.3400876522064209
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 115
+Trial Train accuracy: 0.32465091347694397
+Trial Val accuracy: 0.3223838210105896
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 116
+Trial Train accuracy: 0.32464340329170227
+Trial Val accuracy: 0.3229541778564453
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 117
+Trial Train accuracy: 0.3264114260673523
+Trial Val accuracy: 0.3073517084121704
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 118
+Trial Train accuracy: 0.32557621598243713
+Trial Val accuracy: 0.33464667201042175
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 119
+Trial Train accuracy: 0.32625940442085266
+Trial Val accuracy: 0.3264889419078827
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 120
+Trial Train accuracy: 0.10146584361791611
+Trial Val accuracy: 0.12113502621650696
+Params: 
+    n_layers: 3
+    hidden_size: 64
+
+Trial number: 121
+Trial Train accuracy: 0.3247259855270386
+Trial Val accuracy: 0.3373934328556061
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 122
+Trial Train accuracy: 0.32461899518966675
+Trial Val accuracy: 0.31167447566986084
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 123
+Trial Train accuracy: 0.32467156648635864
+Trial Val accuracy: 0.33618515729904175
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 124
+Trial Train accuracy: 0.32536786794662476
+Trial Val accuracy: 0.34555864334106445
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 125
+Trial Train accuracy: 0.3248554766178131
+Trial Val accuracy: 0.32263898849487305
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 126
+Trial Train accuracy: 0.3256625533103943
+Trial Val accuracy: 0.3358549475669861
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 127
+Trial Train accuracy: 0.3260304033756256
+Trial Val accuracy: 0.3011302053928375
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 128
+Trial Train accuracy: 0.32628753781318665
+Trial Val accuracy: 0.3313670754432678
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 129
+Trial Train accuracy: 0.32514452934265137
+Trial Val accuracy: 0.29400065541267395
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 130
+Trial Train accuracy: 0.3265841007232666
+Trial Val accuracy: 0.3588946759700775
+Params: 
+    n_layers: 3
+    hidden_size: 416
+Best trial is 130 with Val accuracy: 0.3588946759700775
+
+Trial number: 131
+Trial Train accuracy: 0.3257920444011688
+Trial Val accuracy: 0.31903666257858276
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 132
+Trial Train accuracy: 0.3255292773246765
+Trial Val accuracy: 0.34034281969070435
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 133
+Trial Train accuracy: 0.3256625533103943
+Trial Val accuracy: 0.33439901471138
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 134
+Trial Train accuracy: 0.3275206387042999
+Trial Val accuracy: 0.3349993824958801
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 135
+Trial Train accuracy: 0.32569631934165955
+Trial Val accuracy: 0.2972577214241028
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 136
+Trial Train accuracy: 0.32431307435035706
+Trial Val accuracy: 0.3301587998867035
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 137
+Trial Train accuracy: 0.32544293999671936
+Trial Val accuracy: 0.3287478983402252
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 138
+Trial Train accuracy: 0.3251708149909973
+Trial Val accuracy: 0.32165583968162537
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 139
+Trial Train accuracy: 0.32462650537490845
+Trial Val accuracy: 0.3144287168979645
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 140
+Trial Train accuracy: 0.32540541887283325
+Trial Val accuracy: 0.3119071125984192
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 141
+Trial Train accuracy: 0.3254316747188568
+Trial Val accuracy: 0.3255433440208435
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 142
+Trial Train accuracy: 0.3254692256450653
+Trial Val accuracy: 0.31225234270095825
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 143
+Trial Train accuracy: 0.32499250769615173
+Trial Val accuracy: 0.35027167201042175
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 144
+Trial Train accuracy: 0.3250056505203247
+Trial Val accuracy: 0.30586573481559753
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 145
+Trial Train accuracy: 0.32464340329170227
+Trial Val accuracy: 0.33507442474365234
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 146
+Trial Train accuracy: 0.32556870579719543
+Trial Val accuracy: 0.32984358072280884
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 147
+Trial Train accuracy: 0.32445383071899414
+Trial Val accuracy: 0.32315680384635925
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 148
+Trial Train accuracy: 0.32438063621520996
+Trial Val accuracy: 0.35693591833114624
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 149
+Trial Train accuracy: 0.32455894351005554
+Trial Val accuracy: 0.3225114047527313
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 150
+Trial Train accuracy: 0.3260079026222229
+Trial Val accuracy: 0.31105905771255493
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 151
+Trial Train accuracy: 0.32684311270713806
+Trial Val accuracy: 0.3042146861553192
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 152
+Trial Train accuracy: 0.32533034682273865
+Trial Val accuracy: 0.3167777359485626
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 153
+Trial Train accuracy: 0.3257920444011688
+Trial Val accuracy: 0.33201247453689575
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 154
+Trial Train accuracy: 0.3239883780479431
+Trial Val accuracy: 0.32614371180534363
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 155
+Trial Train accuracy: 0.3249380588531494
+Trial Val accuracy: 0.33681556582450867
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 156
+Trial Train accuracy: 0.3263232111930847
+Trial Val accuracy: 0.32614371180534363
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 157
+Trial Train accuracy: 0.32531532645225525
+Trial Val accuracy: 0.3425567150115967
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 158
+Trial Train accuracy: 0.32541292905807495
+Trial Val accuracy: 0.32052263617515564
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 159
+Trial Train accuracy: 0.32520270347595215
+Trial Val accuracy: 0.3359149694442749
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 160
+Trial Train accuracy: 0.3262105882167816
+Trial Val accuracy: 0.34660932421684265
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 161
+Trial Train accuracy: 0.3248235881328583
+Trial Val accuracy: 0.3282000422477722
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 162
+Trial Train accuracy: 0.326495885848999
+Trial Val accuracy: 0.3286428153514862
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 163
+Trial Train accuracy: 0.3249605894088745
+Trial Val accuracy: 0.3436749279499054
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 164
+Trial Train accuracy: 0.3252515196800232
+Trial Val accuracy: 0.33040645718574524
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 165
+Trial Train accuracy: 0.32584086060523987
+Trial Val accuracy: 0.3265489935874939
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 166
+Trial Train accuracy: 0.32405969500541687
+Trial Val accuracy: 0.3212430775165558
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 167
+Trial Train accuracy: 0.32497185468673706
+Trial Val accuracy: 0.34188878536224365
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 168
+Trial Train accuracy: 0.3245251476764679
+Trial Val accuracy: 0.31956952810287476
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 169
+Trial Train accuracy: 0.3247503936290741
+Trial Val accuracy: 0.3166426420211792
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 170
+Trial Train accuracy: 0.32426613569259644
+Trial Val accuracy: 0.30177563428878784
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 171
+Trial Train accuracy: 0.32595157623291016
+Trial Val accuracy: 0.3177458345890045
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 172
+Trial Train accuracy: 0.3255273997783661
+Trial Val accuracy: 0.3312920033931732
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 173
+Trial Train accuracy: 0.3263532221317291
+Trial Val accuracy: 0.3233744502067566
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 174
+Trial Train accuracy: 0.3245795965194702
+Trial Val accuracy: 0.3344065248966217
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 175
+Trial Train accuracy: 0.3262406289577484
+Trial Val accuracy: 0.31532931327819824
+Params: 
+    n_layers: 3
+    hidden_size: 256
+
+Trial number: 176
+Trial Train accuracy: 0.3253772556781769
+Trial Val accuracy: 0.3368906080722809
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 177
+Trial Train accuracy: 0.32539790868759155
+Trial Val accuracy: 0.3222487270832062
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 178
+Trial Train accuracy: 0.32542794942855835
+Trial Val accuracy: 0.31898415088653564
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 179
+Trial Train accuracy: 0.3258126974105835
+Trial Val accuracy: 0.3004697859287262
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 180
+Trial Train accuracy: 0.3243299722671509
+Trial Val accuracy: 0.34754741191864014
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 181
+Trial Train accuracy: 0.32532283663749695
+Trial Val accuracy: 0.33623018860816956
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 182
+Trial Train accuracy: 0.3236524164676666
+Trial Val accuracy: 0.3250179886817932
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 183
+Trial Train accuracy: 0.32566630840301514
+Trial Val accuracy: 0.31910422444343567
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 184
+Trial Train accuracy: 0.3251858055591583
+Trial Val accuracy: 0.2959293723106384
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 185
+Trial Train accuracy: 0.32767269015312195
+Trial Val accuracy: 0.2926798164844513
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 186
+Trial Train accuracy: 0.3234253227710724
+Trial Val accuracy: 0.31488651037216187
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 187
+Trial Train accuracy: 0.32503753900527954
+Trial Val accuracy: 0.3276146650314331
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 188
+Trial Train accuracy: 0.32651278376579285
+Trial Val accuracy: 0.30747178196907043
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 189
+Trial Train accuracy: 0.32440879940986633
+Trial Val accuracy: 0.3302488625049591
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 190
+Trial Train accuracy: 0.32777029275894165
+Trial Val accuracy: 0.31486400961875916
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 191
+Trial Train accuracy: 0.3246227502822876
+Trial Val accuracy: 0.3285227417945862
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 192
+Trial Train accuracy: 0.3248423635959625
+Trial Val accuracy: 0.33617764711380005
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 193
+Trial Train accuracy: 0.3257395029067993
+Trial Val accuracy: 0.3354946970939636
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 194
+Trial Train accuracy: 0.324817955493927
+Trial Val accuracy: 0.3498288691043854
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 195
+Trial Train accuracy: 0.32402777671813965
+Trial Val accuracy: 0.3243350684642792
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 196
+Trial Train accuracy: 0.3244744837284088
+Trial Val accuracy: 0.3400801420211792
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 197
+Trial Train accuracy: 0.3259328305721283
+Trial Val accuracy: 0.291268914937973
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 198
+Trial Train accuracy: 0.3244801163673401
+Trial Val accuracy: 0.33679303526878357
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 199
+Trial Train accuracy: 0.3243449926376343
+Trial Val accuracy: 0.3405154049396515
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 200
+Trial Train accuracy: 0.32600414752960205
+Trial Val accuracy: 0.28473222255706787
+Params: 
+    n_layers: 3
+    hidden_size: 96
+
+Trial number: 201
+Trial Train accuracy: 0.32487237453460693
+Trial Val accuracy: 0.3223838210105896
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 202
+Trial Train accuracy: 0.3254823684692383
+Trial Val accuracy: 0.31746065616607666
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 203
+Trial Train accuracy: 0.3251557946205139
+Trial Val accuracy: 0.3374684751033783
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 204
+Trial Train accuracy: 0.3261280059814453
+Trial Val accuracy: 0.32061266899108887
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 205
+Trial Train accuracy: 0.323577344417572
+Trial Val accuracy: 0.31021854281425476
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 206
+Trial Train accuracy: 0.3247297406196594
+Trial Val accuracy: 0.3582192361354828
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 207
+Trial Train accuracy: 0.3253791332244873
+Trial Val accuracy: 0.34542354941368103
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 208
+Trial Train accuracy: 0.32449889183044434
+Trial Val accuracy: 0.31641000509262085
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 209
+Trial Train accuracy: 0.32582584023475647
+Trial Val accuracy: 0.3099408447742462
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 210
+Trial Train accuracy: 0.3256268799304962
+Trial Val accuracy: 0.33364102244377136
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 211
+Trial Train accuracy: 0.325476735830307
+Trial Val accuracy: 0.33211755752563477
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 212
+Trial Train accuracy: 0.32789039611816406
+Trial Val accuracy: 0.3343014419078827
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 213
+Trial Train accuracy: 0.3259084224700928
+Trial Val accuracy: 0.3198772072792053
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 214
+Trial Train accuracy: 0.3247334957122803
+Trial Val accuracy: 0.3274270296096802
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 215
+Trial Train accuracy: 0.3263006806373596
+Trial Val accuracy: 0.3370632231235504
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 216
+Trial Train accuracy: 0.32626503705978394
+Trial Val accuracy: 0.3198997378349304
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 217
+Trial Train accuracy: 0.323785662651062
+Trial Val accuracy: 0.33259785175323486
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 218
+Trial Train accuracy: 0.3258126974105835
+Trial Val accuracy: 0.34348732233047485
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 219
+Trial Train accuracy: 0.32384946942329407
+Trial Val accuracy: 0.34647423028945923
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 220
+Trial Train accuracy: 0.3258746266365051
+Trial Val accuracy: 0.32269901037216187
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 221
+Trial Train accuracy: 0.32654842734336853
+Trial Val accuracy: 0.31109657883644104
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 222
+Trial Train accuracy: 0.324727863073349
+Trial Val accuracy: 0.3386392295360565
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 223
+Trial Train accuracy: 0.3249605894088745
+Trial Val accuracy: 0.29350534081459045
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 224
+Trial Train accuracy: 0.3264808654785156
+Trial Val accuracy: 0.3136332035064697
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 225
+Trial Train accuracy: 0.32511448860168457
+Trial Val accuracy: 0.32312679290771484
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 226
+Trial Train accuracy: 0.32546547055244446
+Trial Val accuracy: 0.29141899943351746
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 227
+Trial Train accuracy: 0.3258427381515503
+Trial Val accuracy: 0.314924031496048
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 228
+Trial Train accuracy: 0.3246302604675293
+Trial Val accuracy: 0.3286128044128418
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 229
+Trial Train accuracy: 0.32508447766304016
+Trial Val accuracy: 0.3410557508468628
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 230
+Trial Train accuracy: 0.3260979950428009
+Trial Val accuracy: 0.3276596963405609
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 231
+Trial Train accuracy: 0.3260886073112488
+Trial Val accuracy: 0.3291231393814087
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 232
+Trial Train accuracy: 0.32601726055145264
+Trial Val accuracy: 0.3277047276496887
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 233
+Trial Train accuracy: 0.3254917562007904
+Trial Val accuracy: 0.33003121614456177
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 234
+Trial Train accuracy: 0.325296550989151
+Trial Val accuracy: 0.34089064598083496
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 235
+Trial Train accuracy: 0.323757529258728
+Trial Val accuracy: 0.3202674686908722
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 236
+Trial Train accuracy: 0.32538101077079773
+Trial Val accuracy: 0.3323351740837097
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 237
+Trial Train accuracy: 0.32515954971313477
+Trial Val accuracy: 0.3452059328556061
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 238
+Trial Train accuracy: 0.32693880796432495
+Trial Val accuracy: 0.321318119764328
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 239
+Trial Train accuracy: 0.32468467950820923
+Trial Val accuracy: 0.33035391569137573
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 240
+Trial Train accuracy: 0.3262162208557129
+Trial Val accuracy: 0.34239161014556885
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 241
+Trial Train accuracy: 0.32491180300712585
+Trial Val accuracy: 0.3322826623916626
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 242
+Trial Train accuracy: 0.32479730248451233
+Trial Val accuracy: 0.3046199381351471
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 243
+Trial Train accuracy: 0.32576391100883484
+Trial Val accuracy: 0.31171947717666626
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 244
+Trial Train accuracy: 0.3274005353450775
+Trial Val accuracy: 0.3539790213108063
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 245
+Trial Train accuracy: 0.325026273727417
+Trial Val accuracy: 0.330106258392334
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 246
+Trial Train accuracy: 0.32506757974624634
+Trial Val accuracy: 0.3135656714439392
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 247
+Trial Train accuracy: 0.32501500844955444
+Trial Val accuracy: 0.32052263617515564
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 248
+Trial Train accuracy: 0.32661035656929016
+Trial Val accuracy: 0.3359375
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 249
+Trial Train accuracy: 0.32680556178092957
+Trial Val accuracy: 0.31952449679374695
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 250
+Trial Train accuracy: 0.32546547055244446
+Trial Val accuracy: 0.31802353262901306
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 251
+Trial Train accuracy: 0.32468655705451965
+Trial Val accuracy: 0.3203049898147583
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 252
+Trial Train accuracy: 0.32506757974624634
+Trial Val accuracy: 0.33559226989746094
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 253
+Trial Train accuracy: 0.3257695138454437
+Trial Val accuracy: 0.3342639207839966
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 254
+Trial Train accuracy: 0.32566818594932556
+Trial Val accuracy: 0.3384290933609009
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 255
+Trial Train accuracy: 0.3251933157444
+Trial Val accuracy: 0.3264889419078827
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 256
+Trial Train accuracy: 0.3252045810222626
+Trial Val accuracy: 0.30920538306236267
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 257
+Trial Train accuracy: 0.3258671164512634
+Trial Val accuracy: 0.3427518606185913
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 258
+Trial Train accuracy: 0.3254617154598236
+Trial Val accuracy: 0.31947946548461914
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 259
+Trial Train accuracy: 0.32473161816596985
+Trial Val accuracy: 0.3561854362487793
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 260
+Trial Train accuracy: 0.3240859806537628
+Trial Val accuracy: 0.30843988060951233
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 261
+Trial Train accuracy: 0.32490992546081543
+Trial Val accuracy: 0.31112661957740784
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 262
+Trial Train accuracy: 0.3257770240306854
+Trial Val accuracy: 0.27845820784568787
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 263
+Trial Train accuracy: 0.3233671188354492
+Trial Val accuracy: 0.3224438428878784
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 264
+Trial Train accuracy: 0.32679617404937744
+Trial Val accuracy: 0.324942946434021
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 265
+Trial Train accuracy: 0.3252083361148834
+Trial Val accuracy: 0.3238547444343567
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 266
+Trial Train accuracy: 0.3248085677623749
+Trial Val accuracy: 0.33247026801109314
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 267
+Trial Train accuracy: 0.3239508271217346
+Trial Val accuracy: 0.3152317404747009
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 268
+Trial Train accuracy: 0.3242586553096771
+Trial Val accuracy: 0.2885596752166748
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 269
+Trial Train accuracy: 0.3260979950428009
+Trial Val accuracy: 0.33364102244377136
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 270
+Trial Train accuracy: 0.3250506818294525
+Trial Val accuracy: 0.34038034081459045
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 271
+Trial Train accuracy: 0.32416293025016785
+Trial Val accuracy: 0.33462414145469666
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 272
+Trial Train accuracy: 0.32633259892463684
+Trial Val accuracy: 0.3192918300628662
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 273
+Trial Train accuracy: 0.325775146484375
+Trial Val accuracy: 0.31898415088653564
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 274
+Trial Train accuracy: 0.32670044898986816
+Trial Val accuracy: 0.32097291946411133
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 275
+Trial Train accuracy: 0.3260079026222229
+Trial Val accuracy: 0.309745728969574
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 276
+Trial Train accuracy: 0.32472410798072815
+Trial Val accuracy: 0.34031277894973755
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 277
+Trial Train accuracy: 0.3250638246536255
+Trial Val accuracy: 0.3170478940010071
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 278
+Trial Train accuracy: 0.32518768310546875
+Trial Val accuracy: 0.31752821803092957
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 279
+Trial Train accuracy: 0.3257226049900055
+Trial Val accuracy: 0.3071565628051758
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 280
+Trial Train accuracy: 0.3251388967037201
+Trial Val accuracy: 0.3229767084121704
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 281
+Trial Train accuracy: 0.3256343901157379
+Trial Val accuracy: 0.2994416356086731
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 282
+Trial Train accuracy: 0.32502439618110657
+Trial Val accuracy: 0.32686418294906616
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 283
+Trial Train accuracy: 0.32479166984558105
+Trial Val accuracy: 0.3390744924545288
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 284
+Trial Train accuracy: 0.3257451355457306
+Trial Val accuracy: 0.3171529769897461
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 285
+Trial Train accuracy: 0.32515016198158264
+Trial Val accuracy: 0.30337414145469666
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 286
+Trial Train accuracy: 0.32524776458740234
+Trial Val accuracy: 0.33404627442359924
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 287
+Trial Train accuracy: 0.3245401680469513
+Trial Val accuracy: 0.34967127442359924
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 288
+Trial Train accuracy: 0.3257676362991333
+Trial Val accuracy: 0.3162674009799957
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 289
+Trial Train accuracy: 0.3265446722507477
+Trial Val accuracy: 0.29764047265052795
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 290
+Trial Train accuracy: 0.3253791332244873
+Trial Val accuracy: 0.3254532814025879
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 291
+Trial Train accuracy: 0.32390767335891724
+Trial Val accuracy: 0.29716768860816956
+Params: 
+    n_layers: 5
+    hidden_size: 416
+
+Trial number: 292
+Trial Train accuracy: 0.32524213194847107
+Trial Val accuracy: 0.33839157223701477
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 293
+Trial Train accuracy: 0.3255593180656433
+Trial Val accuracy: 0.3206652104854584
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 294
+Trial Train accuracy: 0.3249455690383911
+Trial Val accuracy: 0.30804213881492615
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 295
+Trial Train accuracy: 0.3260510563850403
+Trial Val accuracy: 0.3250405192375183
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 296
+Trial Train accuracy: 0.3249756097793579
+Trial Val accuracy: 0.32156580686569214
+Params: 
+    n_layers: 3
+    hidden_size: 288
+
+Trial number: 297
+Trial Train accuracy: 0.32744932174682617
+Trial Val accuracy: 0.330549031496048
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 298
+Trial Train accuracy: 0.3258952796459198
+Trial Val accuracy: 0.3463841676712036
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 299
+Trial Train accuracy: 0.3260228931903839
+Trial Val accuracy: 0.3269767463207245
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 300
+Trial Train accuracy: 0.32535097002983093
+Trial Val accuracy: 0.31011345982551575
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 301
+Trial Train accuracy: 0.3256268799304962
+Trial Val accuracy: 0.3567783236503601
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 302
+Trial Train accuracy: 0.3262837827205658
+Trial Val accuracy: 0.32735949754714966
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 303
+Trial Train accuracy: 0.3255574405193329
+Trial Val accuracy: 0.30073997378349304
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 304
+Trial Train accuracy: 0.3257226049900055
+Trial Val accuracy: 0.31745314598083496
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 305
+Trial Train accuracy: 0.3258277177810669
+Trial Val accuracy: 0.3415285646915436
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 306
+Trial Train accuracy: 0.3247653841972351
+Trial Val accuracy: 0.3297685384750366
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 307
+Trial Train accuracy: 0.3252909183502197
+Trial Val accuracy: 0.3255883753299713
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 308
+Trial Train accuracy: 0.32482922077178955
+Trial Val accuracy: 0.3151867091655731
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 309
+Trial Train accuracy: 0.32657283544540405
+Trial Val accuracy: 0.32997867465019226
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 310
+Trial Train accuracy: 0.32372185587882996
+Trial Val accuracy: 0.3280574381351471
+Params: 
+    n_layers: 3
+    hidden_size: 224
+
+Trial number: 311
+Trial Train accuracy: 0.3249756097793579
+Trial Val accuracy: 0.32685667276382446
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 312
+Trial Train accuracy: 0.3262162208557129
+Trial Val accuracy: 0.3260986804962158
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 313
+Trial Train accuracy: 0.3261411488056183
+Trial Val accuracy: 0.33976495265960693
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 314
+Trial Train accuracy: 0.325103223323822
+Trial Val accuracy: 0.3212055563926697
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 315
+Trial Train accuracy: 0.3256193697452545
+Trial Val accuracy: 0.30385446548461914
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 316
+Trial Train accuracy: 0.3255292773246765
+Trial Val accuracy: 0.316139817237854
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 317
+Trial Train accuracy: 0.3250131607055664
+Trial Val accuracy: 0.2972277104854584
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 318
+Trial Train accuracy: 0.32499250769615173
+Trial Val accuracy: 0.32573094964027405
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 319
+Trial Train accuracy: 0.3264864981174469
+Trial Val accuracy: 0.3420538902282715
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 320
+Trial Train accuracy: 0.3248254656791687
+Trial Val accuracy: 0.30224093794822693
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 321
+Trial Train accuracy: 0.3257976770401001
+Trial Val accuracy: 0.35072195529937744
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 322
+Trial Train accuracy: 0.3258427381515503
+Trial Val accuracy: 0.3123724162578583
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 323
+Trial Train accuracy: 0.3238232135772705
+Trial Val accuracy: 0.31865394115448
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 324
+Trial Train accuracy: 0.3241159915924072
+Trial Val accuracy: 0.33400124311447144
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 325
+Trial Train accuracy: 0.32542043924331665
+Trial Val accuracy: 0.33710822463035583
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 326
+Trial Train accuracy: 0.32493242621421814
+Trial Val accuracy: 0.3052878677845001
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 327
+Trial Train accuracy: 0.32473912835121155
+Trial Val accuracy: 0.3432696759700775
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 328
+Trial Train accuracy: 0.3256099820137024
+Trial Val accuracy: 0.32095038890838623
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 329
+Trial Train accuracy: 0.32520270347595215
+Trial Val accuracy: 0.33042144775390625
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 330
+Trial Train accuracy: 0.32732170820236206
+Trial Val accuracy: 0.27994415163993835
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 331
+Trial Train accuracy: 0.3254992663860321
+Trial Val accuracy: 0.34144601225852966
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 332
+Trial Train accuracy: 0.32339152693748474
+Trial Val accuracy: 0.299419105052948
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 333
+Trial Train accuracy: 0.32657283544540405
+Trial Val accuracy: 0.32619625329971313
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 334
+Trial Train accuracy: 0.32632696628570557
+Trial Val accuracy: 0.3045448958873749
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 335
+Trial Train accuracy: 0.32559311389923096
+Trial Val accuracy: 0.33364102244377136
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 336
+Trial Train accuracy: 0.3259084224700928
+Trial Val accuracy: 0.32983607053756714
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 337
+Trial Train accuracy: 0.32445383071899414
+Trial Val accuracy: 0.34652677178382874
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 338
+Trial Train accuracy: 0.3248855173587799
+Trial Val accuracy: 0.3253857493400574
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 339
+Trial Train accuracy: 0.3251764476299286
+Trial Val accuracy: 0.3245151937007904
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 340
+Trial Train accuracy: 0.32611486315727234
+Trial Val accuracy: 0.31896162033081055
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 341
+Trial Train accuracy: 0.32406532764434814
+Trial Val accuracy: 0.3201774060726166
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 342
+Trial Train accuracy: 0.32388702034950256
+Trial Val accuracy: 0.32012486457824707
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 343
+Trial Train accuracy: 0.3266572952270508
+Trial Val accuracy: 0.3165225684642792
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 344
+Trial Train accuracy: 0.32466405630111694
+Trial Val accuracy: 0.3244551420211792
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 345
+Trial Train accuracy: 0.32628002762794495
+Trial Val accuracy: 0.30798959732055664
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 346
+Trial Train accuracy: 0.32547298073768616
+Trial Val accuracy: 0.3265189528465271
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 347
+Trial Train accuracy: 0.3266122341156006
+Trial Val accuracy: 0.3292807340621948
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 348
+Trial Train accuracy: 0.32506006956100464
+Trial Val accuracy: 0.333303302526474
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 349
+Trial Train accuracy: 0.3248386085033417
+Trial Val accuracy: 0.31686779856681824
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 350
+Trial Train accuracy: 0.32614865899086
+Trial Val accuracy: 0.31897664070129395
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 351
+Trial Train accuracy: 0.3261186182498932
+Trial Val accuracy: 0.3306090831756592
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 352
+Trial Train accuracy: 0.32643020153045654
+Trial Val accuracy: 0.2999444603919983
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 353
+Trial Train accuracy: 0.3244594633579254
+Trial Val accuracy: 0.31425610184669495
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 354
+Trial Train accuracy: 0.3260304033756256
+Trial Val accuracy: 0.313047856092453
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 355
+Trial Train accuracy: 0.3250788450241089
+Trial Val accuracy: 0.33084172010421753
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 356
+Trial Train accuracy: 0.32572823762893677
+Trial Val accuracy: 0.33306315541267395
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 357
+Trial Train accuracy: 0.3247184753417969
+Trial Val accuracy: 0.2652122378349304
+Params: 
+    n_layers: 4
+    hidden_size: 416
+
+Trial number: 358
+Trial Train accuracy: 0.3257395029067993
+Trial Val accuracy: 0.32524314522743225
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 359
+Trial Train accuracy: 0.3260510563850403
+Trial Val accuracy: 0.322736531496048
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 360
+Trial Train accuracy: 0.3252515196800232
+Trial Val accuracy: 0.3313295543193817
+Params: 
+    n_layers: 3
+    hidden_size: 256
+
+Trial number: 361
+Trial Train accuracy: 0.3252740204334259
+Trial Val accuracy: 0.3347892463207245
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 362
+Trial Train accuracy: 0.3251895606517792
+Trial Val accuracy: 0.3286278247833252
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 363
+Trial Train accuracy: 0.32616743445396423
+Trial Val accuracy: 0.33459413051605225
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 364
+Trial Train accuracy: 0.32577139139175415
+Trial Val accuracy: 0.33614012598991394
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 365
+Trial Train accuracy: 0.32622936367988586
+Trial Val accuracy: 0.2999294400215149
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 366
+Trial Train accuracy: 0.3269575834274292
+Trial Val accuracy: 0.32889798283576965
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 367
+Trial Train accuracy: 0.32479918003082275
+Trial Val accuracy: 0.3099633753299713
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 368
+Trial Train accuracy: 0.3249005377292633
+Trial Val accuracy: 0.3400876522064209
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 369
+Trial Train accuracy: 0.3256831765174866
+Trial Val accuracy: 0.2932201623916626
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 370
+Trial Train accuracy: 0.3248554766178131
+Trial Val accuracy: 0.3574012219905853
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 371
+Trial Train accuracy: 0.3252871632575989
+Trial Val accuracy: 0.32692423462867737
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 372
+Trial Train accuracy: 0.3262556493282318
+Trial Val accuracy: 0.33718329668045044
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 373
+Trial Train accuracy: 0.3258671164512634
+Trial Val accuracy: 0.3337835967540741
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 374
+Trial Train accuracy: 0.32639452815055847
+Trial Val accuracy: 0.32311928272247314
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 375
+Trial Train accuracy: 0.3264864981174469
+Trial Val accuracy: 0.30149045586586
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 376
+Trial Train accuracy: 0.3248761296272278
+Trial Val accuracy: 0.3264589309692383
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 377
+Trial Train accuracy: 0.32701578736305237
+Trial Val accuracy: 0.3119671642780304
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 378
+Trial Train accuracy: 0.3244369328022003
+Trial Val accuracy: 0.3162674009799957
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 379
+Trial Train accuracy: 0.3250187635421753
+Trial Val accuracy: 0.30913034081459045
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 380
+Trial Train accuracy: 0.3256869316101074
+Trial Val accuracy: 0.32423749566078186
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 381
+Trial Train accuracy: 0.3246171176433563
+Trial Val accuracy: 0.3238397538661957
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 382
+Trial Train accuracy: 0.32635697722435
+Trial Val accuracy: 0.3182486593723297
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 383
+Trial Train accuracy: 0.32494744658470154
+Trial Val accuracy: 0.3238922953605652
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 384
+Trial Train accuracy: 0.32468655705451965
+Trial Val accuracy: 0.3447256088256836
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 385
+Trial Train accuracy: 0.32505443692207336
+Trial Val accuracy: 0.31941190361976624
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 386
+Trial Train accuracy: 0.3266591727733612
+Trial Val accuracy: 0.3078470230102539
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 387
+Trial Train accuracy: 0.3251407742500305
+Trial Val accuracy: 0.31072133779525757
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 388
+Trial Train accuracy: 0.3244050443172455
+Trial Val accuracy: 0.32934075593948364
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 389
+Trial Train accuracy: 0.32637763023376465
+Trial Val accuracy: 0.3527107238769531
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 390
+Trial Train accuracy: 0.326447069644928
+Trial Val accuracy: 0.35225293040275574
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 391
+Trial Train accuracy: 0.327064573764801
+Trial Val accuracy: 0.3368830978870392
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 392
+Trial Train accuracy: 0.32527589797973633
+Trial Val accuracy: 0.32048511505126953
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 393
+Trial Train accuracy: 0.3255198895931244
+Trial Val accuracy: 0.3379862904548645
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 394
+Trial Train accuracy: 0.325760155916214
+Trial Val accuracy: 0.3240423798561096
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 395
+Trial Train accuracy: 0.32391706109046936
+Trial Val accuracy: 0.3229992091655731
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 396
+Trial Train accuracy: 0.32663851976394653
+Trial Val accuracy: 0.31683024764060974
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 397
+Trial Train accuracy: 0.3249005377292633
+Trial Val accuracy: 0.31063878536224365
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 398
+Trial Train accuracy: 0.3245120346546173
+Trial Val accuracy: 0.33517950773239136
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 399
+Trial Train accuracy: 0.32594969868659973
+Trial Val accuracy: 0.31580960750579834
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 400
+Trial Train accuracy: 0.3249061703681946
+Trial Val accuracy: 0.3322676420211792
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 401
+Trial Train accuracy: 0.32445570826530457
+Trial Val accuracy: 0.31488651037216187
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 402
+Trial Train accuracy: 0.32592156529426575
+Trial Val accuracy: 0.34540855884552
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 403
+Trial Train accuracy: 0.3246978223323822
+Trial Val accuracy: 0.31896913051605225
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 404
+Trial Train accuracy: 0.3248386085033417
+Trial Val accuracy: 0.3071790933609009
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 405
+Trial Train accuracy: 0.3241159915924072
+Trial Val accuracy: 0.3218134641647339
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 406
+Trial Train accuracy: 0.3253941535949707
+Trial Val accuracy: 0.3303088843822479
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 407
+Trial Train accuracy: 0.3262030780315399
+Trial Val accuracy: 0.32528817653656006
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 408
+Trial Train accuracy: 0.32589903473854065
+Trial Val accuracy: 0.3371007442474365
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 409
+Trial Train accuracy: 0.32565128803253174
+Trial Val accuracy: 0.28577539324760437
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 410
+Trial Train accuracy: 0.32440128922462463
+Trial Val accuracy: 0.34241414070129395
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 411
+Trial Train accuracy: 0.32503190636634827
+Trial Val accuracy: 0.3274945914745331
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 412
+Trial Train accuracy: 0.3252045810222626
+Trial Val accuracy: 0.3228941559791565
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 413
+Trial Train accuracy: 0.3260022699832916
+Trial Val accuracy: 0.2964172065258026
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 414
+Trial Train accuracy: 0.3256494104862213
+Trial Val accuracy: 0.3327029347419739
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 415
+Trial Train accuracy: 0.3264264464378357
+Trial Val accuracy: 0.31852635741233826
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 416
+Trial Train accuracy: 0.3244594633579254
+Trial Val accuracy: 0.319659560918808
+Params: 
+    n_layers: 3
+    hidden_size: 288
+
+Trial number: 417
+Trial Train accuracy: 0.3266948163509369
+Trial Val accuracy: 0.32784730195999146
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 418
+Trial Train accuracy: 0.3235210180282593
+Trial Val accuracy: 0.32150575518608093
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 419
+Trial Train accuracy: 0.3260304033756256
+Trial Val accuracy: 0.3416111171245575
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 420
+Trial Train accuracy: 0.32539603114128113
+Trial Val accuracy: 0.33363351225852966
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 421
+Trial Train accuracy: 0.32447636127471924
+Trial Val accuracy: 0.3019632399082184
+Params: 
+    n_layers: 2
+    hidden_size: 416
+
+Trial number: 422
+Trial Train accuracy: 0.3256494104862213
+Trial Val accuracy: 0.34087565541267395
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 423
+Trial Train accuracy: 0.3252308666706085
+Trial Val accuracy: 0.3446655869483948
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 424
+Trial Train accuracy: 0.32503190636634827
+Trial Val accuracy: 0.32843267917633057
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 425
+Trial Train accuracy: 0.32575076818466187
+Trial Val accuracy: 0.3400876522064209
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 426
+Trial Train accuracy: 0.32562875747680664
+Trial Val accuracy: 0.3259035646915436
+Params: 
+    n_layers: 3
+    hidden_size: 160
+
+Trial number: 427
+Trial Train accuracy: 0.3245702087879181
+Trial Val accuracy: 0.3343239426612854
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 428
+Trial Train accuracy: 0.32504504919052124
+Trial Val accuracy: 0.3260761797428131
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 429
+Trial Train accuracy: 0.3257920444011688
+Trial Val accuracy: 0.3469845652580261
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 430
+Trial Train accuracy: 0.32475602626800537
+Trial Val accuracy: 0.30966317653656006
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 431
+Trial Train accuracy: 0.32540541887283325
+Trial Val accuracy: 0.3072841465473175
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 432
+Trial Train accuracy: 0.3245401680469513
+Trial Val accuracy: 0.3431796133518219
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 433
+Trial Train accuracy: 0.32824137806892395
+Trial Val accuracy: 0.33922460675239563
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 434
+Trial Train accuracy: 0.3255273997783661
+Trial Val accuracy: 0.32878541946411133
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 435
+Trial Train accuracy: 0.3252984285354614
+Trial Val accuracy: 0.3173030614852905
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 436
+Trial Train accuracy: 0.3254110515117645
+Trial Val accuracy: 0.29869115352630615
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 437
+Trial Train accuracy: 0.3255743384361267
+Trial Val accuracy: 0.3166351318359375
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 438
+Trial Train accuracy: 0.32593095302581787
+Trial Val accuracy: 0.3295133709907532
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 439
+Trial Train accuracy: 0.3264808654785156
+Trial Val accuracy: 0.31430113315582275
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 440
+Trial Train accuracy: 0.3255367875099182
+Trial Val accuracy: 0.3271718919277191
+Params: 
+    n_layers: 3
+    hidden_size: 480
+
+Trial number: 441
+Trial Train accuracy: 0.32495683431625366
+Trial Val accuracy: 0.32011735439300537
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 442
+Trial Train accuracy: 0.32546547055244446
+Trial Val accuracy: 0.3047475218772888
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 443
+Trial Train accuracy: 0.3259253203868866
+Trial Val accuracy: 0.3572061061859131
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 444
+Trial Train accuracy: 0.32502439618110657
+Trial Val accuracy: 0.33141210675239563
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 445
+Trial Train accuracy: 0.32512950897216797
+Trial Val accuracy: 0.3251305818557739
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 446
+Trial Train accuracy: 0.3261430263519287
+Trial Val accuracy: 0.3218059539794922
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 447
+Trial Train accuracy: 0.32538852095603943
+Trial Val accuracy: 0.31072884798049927
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 448
+Trial Train accuracy: 0.3252984285354614
+Trial Val accuracy: 0.33159971237182617
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 449
+Trial Train accuracy: 0.32658785581588745
+Trial Val accuracy: 0.30548301339149475
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 450
+Trial Train accuracy: 0.32510697841644287
+Trial Val accuracy: 0.31542685627937317
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 451
+Trial Train accuracy: 0.32428115606307983
+Trial Val accuracy: 0.29813578724861145
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 452
+Trial Train accuracy: 0.32545608282089233
+Trial Val accuracy: 0.324395090341568
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 453
+Trial Train accuracy: 0.32538288831710815
+Trial Val accuracy: 0.3458738625049591
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 454
+Trial Train accuracy: 0.32440879940986633
+Trial Val accuracy: 0.3166201412677765
+Params: 
+    n_layers: 4
+    hidden_size: 416
+
+Trial number: 455
+Trial Train accuracy: 0.32447636127471924
+Trial Val accuracy: 0.3360125422477722
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 456
+Trial Train accuracy: 0.3269144296646118
+Trial Val accuracy: 0.3084248900413513
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 457
+Trial Train accuracy: 0.3252158463001251
+Trial Val accuracy: 0.32528066635131836
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 458
+Trial Train accuracy: 0.32523274421691895
+Trial Val accuracy: 0.30942302942276
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 459
+Trial Train accuracy: 0.32508447766304016
+Trial Val accuracy: 0.3365603983402252
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 460
+Trial Train accuracy: 0.3251633048057556
+Trial Val accuracy: 0.2932651937007904
+Params: 
+    n_layers: 5
+    hidden_size: 416
+
+Trial number: 461
+Trial Train accuracy: 0.3248123228549957
+Trial Val accuracy: 0.31009095907211304
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 462
+Trial Train accuracy: 0.32636260986328125
+Trial Val accuracy: 0.3041696548461914
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 463
+Trial Train accuracy: 0.3251013457775116
+Trial Val accuracy: 0.295884370803833
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 464
+Trial Train accuracy: 0.3266441524028778
+Trial Val accuracy: 0.342774361371994
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 465
+Trial Train accuracy: 0.3266497850418091
+Trial Val accuracy: 0.332755446434021
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 466
+Trial Train accuracy: 0.32527777552604675
+Trial Val accuracy: 0.30494266748428345
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 467
+Trial Train accuracy: 0.32520270347595215
+Trial Val accuracy: 0.33039894700050354
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 468
+Trial Train accuracy: 0.32540541887283325
+Trial Val accuracy: 0.32465776801109314
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 469
+Trial Train accuracy: 0.32472410798072815
+Trial Val accuracy: 0.32630133628845215
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 470
+Trial Train accuracy: 0.32434871792793274
+Trial Val accuracy: 0.3458063006401062
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 471
+Trial Train accuracy: 0.3245702087879181
+Trial Val accuracy: 0.3248829245567322
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 472
+Trial Train accuracy: 0.32736486196517944
+Trial Val accuracy: 0.3505718410015106
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 473
+Trial Train accuracy: 0.32600414752960205
+Trial Val accuracy: 0.34391510486602783
+Params: 
+    n_layers: 3
+    hidden_size: 288
+
+Trial number: 474
+Trial Train accuracy: 0.3260435461997986
+Trial Val accuracy: 0.3140459656715393
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 475
+Trial Train accuracy: 0.32616180181503296
+Trial Val accuracy: 0.32681164145469666
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 476
+Trial Train accuracy: 0.3264639675617218
+Trial Val accuracy: 0.31219229102134705
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 477
+Trial Train accuracy: 0.32633259892463684
+Trial Val accuracy: 0.3223462998867035
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 478
+Trial Train accuracy: 0.32756945490837097
+Trial Val accuracy: 0.34302201867103577
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 479
+Trial Train accuracy: 0.3247334957122803
+Trial Val accuracy: 0.31945693492889404
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 480
+Trial Train accuracy: 0.3253247141838074
+Trial Val accuracy: 0.3354797065258026
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 481
+Trial Train accuracy: 0.3253021836280823
+Trial Val accuracy: 0.330669105052948
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 482
+Trial Train accuracy: 0.32726165652275085
+Trial Val accuracy: 0.31003841757774353
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 483
+Trial Train accuracy: 0.32616743445396423
+Trial Val accuracy: 0.329130619764328
+Params: 
+    n_layers: 3
+    hidden_size: 288
+
+Trial number: 484
+Trial Train accuracy: 0.3247653841972351
+Trial Val accuracy: 0.31117165088653564
+Params: 
+    n_layers: 3
+    hidden_size: 320
+
+Trial number: 485
+Trial Train accuracy: 0.32611486315727234
+Trial Val accuracy: 0.32151326537132263
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 486
+Trial Train accuracy: 0.32568880915641785
+Trial Val accuracy: 0.32478535175323486
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 487
+Trial Train accuracy: 0.32549551129341125
+Trial Val accuracy: 0.32789233326911926
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 488
+Trial Train accuracy: 0.3260228931903839
+Trial Val accuracy: 0.30741173028945923
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 489
+Trial Train accuracy: 0.32524964213371277
+Trial Val accuracy: 0.31800100207328796
+Params: 
+    n_layers: 3
+    hidden_size: 512
+
+Trial number: 490
+Trial Train accuracy: 0.32464152574539185
+Trial Val accuracy: 0.3244101107120514
+Params: 
+    n_layers: 3
+    hidden_size: 352
+
+Trial number: 491
+Trial Train accuracy: 0.3255893588066101
+Trial Val accuracy: 0.3308717608451843
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 492
+Trial Train accuracy: 0.3251407742500305
+Trial Val accuracy: 0.31321296095848083
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 493
+Trial Train accuracy: 0.3246471583843231
+Trial Val accuracy: 0.3354872167110443
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 494
+Trial Train accuracy: 0.32679805159568787
+Trial Val accuracy: 0.33313068747520447
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 495
+Trial Train accuracy: 0.32552364468574524
+Trial Val accuracy: 0.31283771991729736
+Params: 
+    n_layers: 3
+    hidden_size: 448
+
+Trial number: 496
+Trial Train accuracy: 0.3243243396282196
+Trial Val accuracy: 0.3296934962272644
+Params: 
+    n_layers: 3
+    hidden_size: 384
+
+Trial number: 497
+Trial Train accuracy: 0.3258558511734009
+Trial Val accuracy: 0.31263506412506104
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 498
+Trial Train accuracy: 0.32529279589653015
+Trial Val accuracy: 0.3207252621650696
+Params: 
+    n_layers: 3
+    hidden_size: 416
+
+Trial number: 499
+Trial Train accuracy: 0.32549551129341125
+Trial Val accuracy: 0.3487856984138489
+Params: 
+    n_layers: 3
+    hidden_size: 384
+Study statistics: 
+  Number of finished trials: 500
+  Number of pruned trials: 0
+  Number of complete trials: 500
+Best trial:
+  Value: 0.3588946759700775
+ Params: 
+    n_layers: 3
+    hidden_size: 416

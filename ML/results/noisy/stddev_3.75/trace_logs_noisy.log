@@ -1,0 +1,127 @@
+Time: 2022-01-12_17:37:47
+Platform information: Linux-5.11.0-25-generic-x86_64-with-glibc2.29, server3
+PyTorch version: 1.8.1+cu102
+Numpy version: 1.20.3
+Config information: {
+    "ML": {
+        "datasetsize": "1048576",
+        "train": "0.625",
+        "test": "0.25",
+        "val": "0.125",
+        "epochs": "50",
+        "hidden": "128 128",
+        "dropout": "0.0",
+        "activation": "relu",
+        "optimizer": "Adamw",
+        "batchsize": "64",
+        "lr": "1e-4",
+        "accuracyeps": "0",
+        "stddev": "3.75"
+    },
+    "OPTUNA": {
+        "trials": "500",
+        "epochs": "25",
+        "train": "0.8",
+        "val": "0.2",
+        "batchsize": "64",
+        "numlayers": "2 5",
+        "layersize": "64 512",
+        "optimizer": "adamw",
+        "activation": "relu",
+        "lr": "1e-4",
+        "accuracyeps": "0"
+    }
+} 
+No GPU
+StdDev: 3.75
+SNR: 2.2447526055475344 
+
+Total dataset size: 
+1048576 = 2 ^ 20.0
+
+Train samples: 
+655360 = 2 ^ 19.32192809488736
+
+Val samples: 
+131072 = 2 ^ 17.0
+
+Test samples: 
+262144 = 2 ^ 18.0
+
+Train distribution: 
+{0: 3880, 1: 3888, 2: 3835, 3: 3872, 4: 3885, 5: 3877, 6: 3916, 7: 4273, 8: 5160, 9: 7318, 10: 11747, 11: 19763, 12: 31435, 13: 46869, 14: 61677, 15: 73382, 16: 77910, 17: 72960, 18: 61517, 19: 46438, 20: 31586, 21: 19969, 22: 11826, 23: 7443, 24: 5120, 25: 4419, 26: 3881, 27: 3965, 28: 3941, 29: 3974, 30: 3884, 31: 3913, 32: 3837}
+Val distribution: 
+{0: 771, 1: 831, 2: 776, 3: 794, 4: 726, 5: 804, 6: 807, 7: 907, 8: 1034, 9: 1453, 10: 2375, 11: 3864, 12: 6196, 13: 9258, 14: 12433, 15: 14766, 16: 15551, 17: 14578, 18: 12477, 19: 9227, 20: 6320, 21: 3869, 22: 2398, 23: 1490, 24: 1065, 25: 861, 26: 819, 27: 742, 28: 789, 29: 779, 30: 775, 31: 754, 32: 783}
+Test distribution: 
+{0: 1553, 1: 1556, 2: 1606, 3: 1545, 4: 1573, 5: 1552, 6: 1608, 7: 1674, 8: 2146, 9: 2866, 10: 4649, 11: 7989, 12: 12636, 13: 18521, 14: 24803, 15: 29341, 16: 30945, 17: 29257, 18: 24590, 19: 18645, 20: 12802, 21: 7972, 22: 4766, 23: 2893, 24: 2086, 25: 1687, 26: 1571, 27: 1522, 28: 1618, 29: 1477, 30: 1537, 31: 1550, 32: 1608}Data preparation time: 28.753268480300903
+Activation function: ReLU
+Optimizer function: AdamW
+Epochs: 50
+Batch size: 64
+Learning rate: 0.0001
+Accuracy tolernace: 0.0
+Model Information: 
+Sequential(
+  (0): Linear(in_features=500, out_features=128, bias=True)
+  (1): ReLU()
+  (2): Dropout(p=0.0, inplace=False)
+  (3): Linear(in_features=128, out_features=128, bias=True)
+  (4): ReLU()
+  (5): Linear(in_features=128, out_features=33, bias=True)
+)
+Allocated GPU memory: 0 bytes
+Epoch 1/50: Train Loss - 2.62303, Val Loss - 2.13980, Train Acc - 0.12512, Val Acc - 0.17487
+Epoch 2/50: Train Loss - 2.00495, Val Loss - 1.96049, Train Acc - 0.20422, Val Acc - 0.22044
+Epoch 3/50: Train Loss - 1.93148, Val Loss - 1.87687, Train Acc - 0.21777, Val Acc - 0.24107
+Epoch 4/50: Train Loss - 1.90111, Val Loss - 1.83494, Train Acc - 0.22453, Val Acc - 0.25036
+Epoch 5/50: Train Loss - 1.88270, Val Loss - 1.81736, Train Acc - 0.22835, Val Acc - 0.25285
+Epoch 6/50: Train Loss - 1.87092, Val Loss - 1.81322, Train Acc - 0.23122, Val Acc - 0.25320
+Epoch 7/50: Train Loss - 1.86214, Val Loss - 1.82832, Train Acc - 0.23351, Val Acc - 0.24902
+Epoch 8/50: Train Loss - 1.85683, Val Loss - 1.81032, Train Acc - 0.23485, Val Acc - 0.25205
+Epoch 9/50: Train Loss - 1.85144, Val Loss - 1.85047, Train Acc - 0.23646, Val Acc - 0.24402
+Epoch 10/50: Train Loss - 1.84741, Val Loss - 1.81689, Train Acc - 0.23737, Val Acc - 0.25237
+Epoch 11/50: Train Loss - 1.84369, Val Loss - 1.85423, Train Acc - 0.23845, Val Acc - 0.24251
+Epoch 12/50: Train Loss - 1.84064, Val Loss - 1.85563, Train Acc - 0.23925, Val Acc - 0.24129
+Epoch 13/50: Train Loss - 1.83817, Val Loss - 1.85836, Train Acc - 0.23990, Val Acc - 0.24047
+Epoch 14/50: Train Loss - 1.83567, Val Loss - 1.88463, Train Acc - 0.24031, Val Acc - 0.23116
+Epoch 15/50: Train Loss - 1.83382, Val Loss - 1.88548, Train Acc - 0.24102, Val Acc - 0.23273
+Epoch 16/50: Train Loss - 1.83193, Val Loss - 1.86181, Train Acc - 0.24124, Val Acc - 0.24010
+Epoch 17/50: Train Loss - 1.82993, Val Loss - 1.86836, Train Acc - 0.24142, Val Acc - 0.23608
+Epoch 18/50: Train Loss - 1.82838, Val Loss - 1.86274, Train Acc - 0.24189, Val Acc - 0.23827
+Epoch 19/50: Train Loss - 1.82709, Val Loss - 1.85815, Train Acc - 0.24241, Val Acc - 0.23957
+Epoch 20/50: Train Loss - 1.82589, Val Loss - 1.83909, Train Acc - 0.24275, Val Acc - 0.24588
+Epoch 21/50: Train Loss - 1.82467, Val Loss - 1.83974, Train Acc - 0.24338, Val Acc - 0.24368
+Epoch 22/50: Train Loss - 1.82361, Val Loss - 1.82237, Train Acc - 0.24341, Val Acc - 0.24959
+Epoch 23/50: Train Loss - 1.82252, Val Loss - 1.80950, Train Acc - 0.24389, Val Acc - 0.25349
+Epoch 24/50: Train Loss - 1.82126, Val Loss - 1.79482, Train Acc - 0.24453, Val Acc - 0.25706
+Epoch 25/50: Train Loss - 1.82086, Val Loss - 1.79292, Train Acc - 0.24458, Val Acc - 0.25617
+Epoch 26/50: Train Loss - 1.81958, Val Loss - 1.79027, Train Acc - 0.24496, Val Acc - 0.25780
+Epoch 27/50: Train Loss - 1.81859, Val Loss - 1.78568, Train Acc - 0.24538, Val Acc - 0.25915
+Epoch 28/50: Train Loss - 1.81772, Val Loss - 1.78859, Train Acc - 0.24537, Val Acc - 0.25731
+Epoch 29/50: Train Loss - 1.81704, Val Loss - 1.77911, Train Acc - 0.24563, Val Acc - 0.26094
+Epoch 30/50: Train Loss - 1.81587, Val Loss - 1.77725, Train Acc - 0.24614, Val Acc - 0.26081
+Epoch 31/50: Train Loss - 1.81530, Val Loss - 1.77456, Train Acc - 0.24644, Val Acc - 0.26205
+Epoch 32/50: Train Loss - 1.81465, Val Loss - 1.77443, Train Acc - 0.24675, Val Acc - 0.26202
+Epoch 33/50: Train Loss - 1.81384, Val Loss - 1.77080, Train Acc - 0.24703, Val Acc - 0.26136
+Epoch 34/50: Train Loss - 1.81306, Val Loss - 1.76895, Train Acc - 0.24739, Val Acc - 0.26203
+Epoch 35/50: Train Loss - 1.81341, Val Loss - 1.76523, Train Acc - 0.24713, Val Acc - 0.26366
+Epoch 36/50: Train Loss - 1.81242, Val Loss - 1.76262, Train Acc - 0.24744, Val Acc - 0.26490
+Epoch 37/50: Train Loss - 1.81186, Val Loss - 1.76362, Train Acc - 0.24749, Val Acc - 0.26419
+Epoch 38/50: Train Loss - 1.81100, Val Loss - 1.76476, Train Acc - 0.24787, Val Acc - 0.26361
+Epoch 39/50: Train Loss - 1.81055, Val Loss - 1.76330, Train Acc - 0.24792, Val Acc - 0.26508
+Epoch 40/50: Train Loss - 1.80996, Val Loss - 1.76258, Train Acc - 0.24790, Val Acc - 0.26358
+Epoch 41/50: Train Loss - 1.80967, Val Loss - 1.76219, Train Acc - 0.24816, Val Acc - 0.26488
+Epoch 42/50: Train Loss - 1.80899, Val Loss - 1.75985, Train Acc - 0.24837, Val Acc - 0.26469
+Epoch 43/50: Train Loss - 1.81000, Val Loss - 1.76289, Train Acc - 0.24869, Val Acc - 0.26324
+Epoch 44/50: Train Loss - 1.80828, Val Loss - 1.75947, Train Acc - 0.24847, Val Acc - 0.26456
+Epoch 45/50: Train Loss - 1.80784, Val Loss - 1.76575, Train Acc - 0.24875, Val Acc - 0.26324
+Epoch 46/50: Train Loss - 1.80902, Val Loss - 1.75893, Train Acc - 0.24860, Val Acc - 0.26547
+Epoch 47/50: Train Loss - 1.80720, Val Loss - 1.76225, Train Acc - 0.24901, Val Acc - 0.26506
+Epoch 48/50: Train Loss - 1.80647, Val Loss - 1.76024, Train Acc - 0.24897, Val Acc - 0.26564
+Epoch 49/50: Train Loss - 1.80581, Val Loss - 1.76056, Train Acc - 0.24939, Val Acc - 0.26453
+Epoch 50/50: Train Loss - 1.80680, Val Loss - 1.75821, Train Acc - 0.24902, Val Acc - 0.26521
+Training time: 2026.901595
+Test Loss - 1.76088, Test Acc - 0.26465
+Test Accuracy for 1-4 tolerance: 
+{"1": 0.68409, "2": 0.90211, "3": 0.97717, "4": 0.99545, "5": 0.9992, "6": 0.99987, "7": 0.99998, "8": 0.99999, "9": 1.0, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 1.0, "15": 1.0, "16": 1.0, "17": 1.0, "18": 1.0, "19": 1.0, "20": 1.0, "21": 1.0, "22": 1.0, "23": 1.0, "24": 1.0, "25": 1.0, "26": 1.0, "27": 1.0, "28": 1.0, "29": 1.0, "30": 1.0, "31": 1.0, "32": 1.0}
+SNR: 2.2447526055475344 
